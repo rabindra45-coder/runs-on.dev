@@ -3,14 +3,16 @@
   "owner": {
     "github": "rabindra45-coder"
   },
-  "claimedAt": "2026-10-15T14:32:38.826Z",
   "records": {
-    "CNAME": "likhora-ai.onrender.com"
-  },
-  "country": "IN",
-  "subdomains": {
-    "info": {
-      "CNAME": "likhora.onrender.com"
-    }
+    "A": [
+      "216.24.57.1"
+    ],
+    "MX": [
+      { "priority": 10, "value": "://improvmx.com." },
+      { "priority": 20, "value": "://improvmx.com." }
+    ],
+    "TXT": [
+      "v=spf1 include:://improvmx.com ~all"
+    ]
   }
 }
